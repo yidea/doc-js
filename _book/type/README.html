@@ -34,7 +34,7 @@
 
 
         
-    <div class="book" data-level="1" data-basepath=".." data-revision="1418833681855">
+    <div class="book" data-level="1" data-basepath=".." data-revision="1420490667350">
     
 
 <div class="book-summary">
@@ -259,6 +259,60 @@
             
         </li>
     
+        
+        <li class="chapter " data-level="3" data-path="dom/README.html">
+            
+                
+                    <a href="../dom/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         DOM
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4" data-path="mvc_framework/README">
+            
+                
+                    <a href="../mvc_framework/README">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         MVC framework
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.1" data-path="mvc_framework/angularjs.html">
+            
+                
+                    <a href="../mvc_framework/angularjs.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                         AngularJS
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
 
 
         
@@ -348,14 +402,32 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_3">
+                    <section class="normal" id="section-gitbook_4">
                     
-                        <h1 id="value-type">Value Type</h1>
-<p>There are 2 types of values in Javascript:</p>
+                        <h1 id="types-values--variable">Types, Values &amp; Variable</h1>
+<p>JS variable doesn&#39;t have type by itself, only value has type, variable can hold value and change on the run -- JS is a dynamic weak typed language that type are determined at run time not compile time. <code>var a = 10; a = &quot;10&quot;</code></p>
+<p>JS has 7 build-in types: <strong>null, undefined, boolean, number, string, object, symbol(add real private prop in ES6)</strong>.</p>
+<pre><code class="lang-js"><span class="hljs-comment">//use typeof to inspect type of value</span>
+<span class="hljs-keyword">typeof</span> a === <span class="hljs-string">"undefined"</span>; <span class="hljs-comment">//true</span>
+<span class="hljs-keyword">typeof</span> <span class="hljs-literal">true</span> === <span class="hljs-string">"boolean"</span>; <span class="hljs-comment">// true</span>
+<span class="hljs-keyword">typeof</span> <span class="hljs-number">12</span> === <span class="hljs-string">"number"</span>; <span class="hljs-comment">// true</span>
+<span class="hljs-keyword">typeof</span> <span class="hljs-string">"12"</span> === <span class="hljs-string">"string"</span>; <span class="hljs-comment">// true</span>
+<span class="hljs-keyword">typeof</span> {} === <span class="hljs-string">"object"</span>; <span class="hljs-comment">// true</span>
+<span class="hljs-keyword">typeof</span> [] === <span class="hljs-string">"object"</span>; <span class="hljs-comment">// true</span>
+<span class="hljs-keyword">typeof</span> <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{} === <span class="hljs-string">"object"</span>; <span class="hljs-comment">//true</span>
+<span class="hljs-keyword">typeof</span> Symbol() === <span class="hljs-string">"symbol"</span>; <span class="hljs-comment">// true</span>
+<span class="hljs-comment">// null is buggy in JS inherited from java, type is object but value is falsy</span>
+<span class="hljs-keyword">typeof</span> <span class="hljs-literal">null</span> === <span class="hljs-string">"object"</span>; <span class="hljs-comment">// true</span>
+</code></pre>
+<p>There are 2 category of those 7 types values in JS:</p>
 <ol>
-<li>Primitive values - passed by value (e.g. String, Number)</li>
-<li>Reference values - passed by reference(e.g. Object, Array).</li>
+<li>Primitive values - passed by value (e.g. String, Number, Boolean)</li>
+<li>Reference values - passed by reference(e.g. Object).</li>
 </ol>
+<h3 id="reference">Reference</h3>
+<ul>
+<li><a href="https://github.com/getify/You-Dont-Know-JS/tree/master/types%20%26%20grammar" target="_blank">Types &amp; Grammer</a></li>
+</ul>
 
                     
                     </section>
@@ -387,10 +459,6 @@
 
     
     <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
-    
-
-    
-    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
     
 
 <script>

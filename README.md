@@ -1,11 +1,14 @@
 # Javascript in a Nutshell
 
+### Run
+- Edit via GitBook.app
+- Webstorm and liveReload (open index.html in browser)
+
 ### Reading
 - Books
   * Principles of Object-Oriented Programming in JS, Nicholas Zakas
   * [Speaking JS](http://speakingjs.com/)
   * https://www.safaribooksonline.com/library/view/javascript-the-definitive/9781449393854/
-
 
 ### Markdown Cheatsheet
 - https://guides.github.com/features/mastering-markdown/

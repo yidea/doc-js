@@ -12,4 +12,7 @@
        * [Function](type/reference_value/function.md)
        * [Regular Expression](type/reference_value/regular_expression.md)
 * [Prototype](prototype/README.md)
+* [DOM](dom/README.md)
+* [MVC framework](mvc_framework/README)
+   * [AngularJS](mvc_framework/angularjs.md)
 
