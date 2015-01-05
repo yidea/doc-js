@@ -1,7 +1,5 @@
 {
-    "name": "book",
+    "name": "js ns",
     "version": "0.0.0",
-    "dependencies": {
-        "gitbook-plugin-jsbin": "*"
-    }
+    "dependencies": {}
 }
