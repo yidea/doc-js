@@ -10,4 +10,4 @@ var re = /test/g;
 var re = new RegExp("test", "g");
 ```
 
-http://jsbin.com/qecog/latest/embed?js
+<iframe width="100%" height="350" src="http://jsbin.com/qecog/latest/embed?js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>

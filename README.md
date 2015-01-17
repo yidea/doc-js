@@ -1,18 +1,13 @@
 # Javascript in a Nutshell
 
 ### Run
-- Edit via GitBook.app
-- Webstorm and liveReload (open index.html in browser)
+- gitbook build 
 
 ### Reading
 - Books
-  * Principles of Object-Oriented Programming in JS, Nicholas Zakas
   * [Speaking JS](http://speakingjs.com/)
-  * https://www.safaribooksonline.com/library/view/javascript-the-definitive/9781449393854/
-
-### Markdown Cheatsheet
-- https://guides.github.com/features/mastering-markdown/
-- http://assemble.io/docs/Cheatsheet-Markdown.html
+  * Professional JS for Web Developer
+  * Principles of Object-Oriented Programming in JS, Nicholas Zakas
 
 ### Reference
 1. https://github.com/GitbookIO/javascript
@@ -28,3 +23,6 @@
 - design pattern (read js patterns and learning js dp)
 - memory (https://speakerdeck.com/addyosmani/javascript-memory-management-masterclass)
 - performance
+- ECMA6 https://github.com/nzakas/understandinges6
+- Design pattern (module, singleton, pubsub)
+- Mobile http://www.luster.io/blog/9-29-14-mobile-web-checklist.html

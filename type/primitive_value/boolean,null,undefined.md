@@ -12,6 +12,9 @@ var a;
 typeof a === "undefined"; //true
 // check variable is not undefined
 (typeof a !== "undefined") //false
+// Safe undefined check (changeable in ECMA3)
+a === void 0; //void 0 will always result in safe undefined
+console.log(1)
 ```
 
 ### Null
@@ -25,4 +28,5 @@ var obj = null;
 (a == undefined)
 ```
 
-http://jsbin.com/qiyoj/latest/embed?js
+<iframe width="100%" height="350" src="http://jsbin.com/qiyoj/latest/embed?js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+

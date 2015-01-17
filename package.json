@@ -1,5 +1,6 @@
 {
-    "name": "js ns",
-    "version": "0.0.0",
-    "dependencies": {}
+  "name": "js_ns",
+  "version": "0.0.1",
+  "dependencies": {
+  }
 }

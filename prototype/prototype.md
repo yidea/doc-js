@@ -1,12 +1,6 @@
-# Prototype & OOP
+# Prototype Inheritance
 
-### TOC 
-- Scope 
-- Hoisting
-- this
-- Closure, IIFE
-
-<iframe width="100%" height="350" src="http://jsbin.com/welezo/latest/embed?js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+### Prototype Chain
 
 ### Reference
 - [JavaScript-Scoping-and-Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)

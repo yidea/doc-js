@@ -5,4 +5,4 @@
 - Special Number: NaN (+"a"), Infinity(3/0), -Infinity(-Math.pow(2, 1025), js exponent range [-2^1024, 2^1024])
 - bitwise shift >> << >>>
 
-http://jsbin.com/dudad/latest/embed?js,
+<iframe width="100%" height="350" src="http://jsbin.com/dudad/latest/embed?js" allowfullscreen="allowfullscreen" frameborder="0"></iframe>

@@ -23,4 +23,5 @@ There are 2 category of those 7 types values in JS:
 2. Reference values - passed by reference(e.g. Object).
 
 ### Reference
-- [Types & Grammer](https://github.com/getify/You-Dont-Know-JS/tree/master/types%20%26%20grammar)
+- [You Don't know JS](https://github.com/getify/You-Dont-Know-JS/tree/master/types%20%26%20grammar)
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
