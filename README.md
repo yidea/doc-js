@@ -1,5 +1,11 @@
 # Javascript Cookbook
 
+### Setup
+`
+npm install gitbook-cli -g
+gitbook build
+`
+
 ### TODO
 - scope & hoist & closure
   * https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20%26%20closures/ch1.md
