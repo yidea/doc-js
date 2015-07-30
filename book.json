@@ -1,7 +1,5 @@
 {
-    "plugins": [
-      "jsbin"
-    ],
-    "pluginsConfig": {
-    }
+  "plugins": [
+    "jsbin"
+  ]
 }
