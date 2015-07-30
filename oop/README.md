@@ -9,13 +9,24 @@ var MYAPP = MYAPP || {}; //global namespace
 MYAPP.event = {addListener: function(el, type, fn){}}; //sub namespace
 ```
 
-### Class, Constructor, Instance, this
+### Constructor, New Instance
 JS doesn't have class statement, but use function as constructor and create instance w new Constructor(),  
+`new` Constructor will create a new instance of Constructor by calling its constructor function and returning an object containing inherited properties and methods  
+
 ```js
 function Person(name){//Constructor
   this.name = name; //constructor is a method called at new instance for setup prop
 }
 var person1 = new Person(); //instance
+```
+
+### this
+`this` refers to the current caller of the function, and `this` context can be manipulated by using bind/apply/call
+
+```js
+var view = new UserView();
+view.render();
+_.bindAll(this, "_show");
 ```
 
 ### Method 
@@ -38,3 +49,7 @@ Student.prototype.sayHi = function() { //override sayHi in Student.prototype
   console.log(this.name + this.grade);
 }
 ``` 
+
+### Reference 
+- Book: The Principles of Object-Oriented JavaScript
+- http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/

@@ -8,7 +8,4 @@ AngularJS is a MVC framework for build well structured, testable, maintainable w
 
 - 2 way Data Binding
 
-    Model <-> View
-
-
 https://github.com/angular/angular-seed

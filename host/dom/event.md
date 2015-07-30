@@ -1,7 +1,8 @@
 # DOM event
 
 ### Event workflow
-[Diagram of event phase](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2013/10/eventflow.png)
+![Diagram of event phase](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2013/10/eventflow.png)
+
 1. __Capture phase__ - start from window, fire each node on its way to target, its main 
 purpose is to build dom propagation path for travelling back in bubbling phase, mostly turned off(false) in event listener
   ```js

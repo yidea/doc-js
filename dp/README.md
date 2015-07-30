@@ -34,3 +34,89 @@
   console.assert(car1.getTime() === "2014", "car1.getTime() == 2014");
   console.assert(car1.getName() === "honda", "car1.getName() == honda");
   ```
+  
+  /*
+   * Design Pattern & Backbone
+   * -------------
+   * - Reading:
+   * JSIQ
+   * http://addyosmani.com/resources/essentialjsdesignpatterns/book/
+   * http://shichuan.github.io/javascript-patterns/
+   *
+   * - 3 categories: Creational, Structural and Behavioral
+   * - Gang of Four (GoF)
+   *
+   */
+  
+  /*
+   * @ Singleton
+   * ----------------------------------
+   * - get only one searchModel
+   */
+  
+  /*
+   * @  Publisher-Subscriber
+   * ----------------------------------
+   * - event .on/trigger
+   */
+  
+  /*
+   * @ Event Aggregator vs. Mediator
+   * ----------------------------------
+   * -https://github.com/addyosmani/backbone-fundamentals/blob/gh-pages/chapters/07-common-problems.md
+   * - Event Aggregator: global/higher level event w pubsub. viewA,viewB handles its' own logic
+   * e.g. $("body").on("click", "a", fn); //event delegation in dom
+   * BB views communicate:
+    * typeaheadView:Backbone.trigger("typeahead:changeCategory"); dropdownView:Backbone.on(typeahead:changeCategory, fn)
+   *
+   * - Mediator: similar to Event Aggregator, but the facilitate logic code/handler is in the mediator object itself not in viewA, viewB.
+   * e.g
+   * var Mediator = function(){
+   *  Backbone.on("typeahead:changeCategory", doStuff)
+   * }
+   * Mediator.prototype.doStuff = function(){};
+   */
+  
+  /*
+   * @ MVC | MVP | MVVM
+   * -------------
+   * - MVP(Presenter)
+   * - a simple MVC js implementation (similar to backbone)
+   * https://github.com/addyosmani/backbone-fundamentals/blob/gh-pages/chapters/18-appendix.md
+   */
+  
+  /*
+   * @ Module Pattern
+   * -------------
+   * - 148
+   * - e.g. IIFE,commonJS, AMD, jQuery
+   */
+  
+  /*
+   * @ Continuation-Passing style
+   * -------------
+   * - a function take a callback as explicit continuation
+   * - e.g. each/ajax callback
+   */
+  function some(obj, callback, context) {
+    if (obj == null) {return false;} //validate null/undefined
+    // if array and native support
+    if (nativeSome && obj.some === nativeSome) {
+      return obj.some(callback, context);
+    }
+  }
+  
+  /*
+   * @ Chaining method
+   * -------------
+   */
+  
+  
+  /*
+   * @ Promise
+   * -------------
+   * http://www.html5rocks.com/en/tutorials/es6/promises/#toc-promise-terminology
+   */
+  
+  
+
