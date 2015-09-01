@@ -1,5 +1,11 @@
 # JS BP
 
+### Production Ready JS
+
+- Error logging & reporting 
+e.g. Report js error w stacktrace via Rollbar. e.g. `url.indexOf("?")` in case url is undefined will throw error can't use indexOf on unknown variable
+http://www.slant.co/topics/2615/~what-are-the-best-javascript-client-side-error-logging-services
+
 - IIFE
 IIFE is used to create closure for methods ot avoid polluting global namespace
  

@@ -27,7 +27,7 @@
      * [DOM event](host/dom/event.md)
      * [DOM node](host/dom/node.md)
   * [Cookie, LocalStorage & SessionStorage](storage/README.md)
-* [Performance](performance/README.md)
+* [Web Performance](performance/web_performance.md)
   * [How Browser Works](performance/how_browser_works.md)
   * [Garbage Collection(GC) & Memory Leak](performance/memory_leak.md)
   * [General Performance Guide](performance/general.md)
